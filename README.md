@@ -23,7 +23,7 @@ Se você nunca usou LaTeX antes pode encontrar mais informações no [LearnLatex
 
 ## Download
 
-Para baixar este repositório, contendo estas instruções e o arquivo `coda.tex`, use o botão verde `Code` acima e escolha a opção `Download zip`.
+Para baixar este repositório use o botão `Code` acima e escolha a opção `Download zip`.
 
 Para clonar com git use:
 
@@ -49,8 +49,7 @@ pdflatex coda.tex
 
 ### Blocos de código
 
-Para usar os blocos de código, especifique a linguagem desejada
-no início da tag de abertura:
+Para usar os blocos de código, especifique a linguagem desejada no início da tag de abertura:
 
 ```tex
 \begin{lstlisting}[language=C++]
@@ -105,16 +104,16 @@ Mais informações estão disponíveis no [repositório do pacote plantuml](http
 
 O arquivo coda.tex está dividido entre as seções:
 
- 1. Configuração base
- 2. Pacotes
- 3. Dados para a capa
- 4. Configurações de imagens
- 5. Estilo do documento
-    5.1. Destaque de sintaxe
-    5.2. Estilo dos links
-    5.3. Estilo da capa
-    5.4. Estilo do corpo
- 6. Corpo do documento
+1. Configuração base
+2. Pacotes
+3. Dados para a capa
+4. Configurações de imagens
+5. Estilo do documento
+   1. Destaque de sintaxe
+   1. Estilo dos links
+   1. Estilo da capa
+   1. Estilo do corpo
+6. Corpo do documento
 
 #### Configuração base
 
@@ -125,6 +124,7 @@ Por padrão, a página está configurada como `a4paper`.
 Alguns valores disponíveis são:
 
 |   valor       | largura   | altura    |
+|---------------|-----------|-----------|
 | a4paper       | 210 mm    | 297 mm    |
 | a5paper       | 148 mm    | 210 mm    |
 | b5paper       | 176 mm    | 250 mm    |
@@ -169,10 +169,11 @@ Se desejar manter a informação completa dos pacotes você também pode apenas 
 
 #### Dados para a capa
 
-|	tag		|			descrição											|
-| title		| Título do documento											|
-| author	| Nome ou informação de autoria									|
-| date		| Data. Use `\today` para inserir a data atual automaticamente	|
+|	tag		  |			descrição											                                       |
+|--------|--------------------------------------------------------------|
+| title		| Título do documento											                               |
+| author	| Nome ou informação de autoria								                      	 |
+| date		 | Data. Use `\today` para inserir a data atual automaticamente	|
 
 #### Configurações de imagens
 
@@ -198,7 +199,7 @@ Esta seção contém a maioria das configurações disponíveis.
 
 Define as cores usadas para dar destaque à sintaxe do código.
 
-Parâmetros possíveis (ver pacote lstlisting -> lstdefinestyle)
+Detalhes sobre os códigos de cores estão disponíveis no pacote lstlisting -> lstdefinestyle.
 
 ##### Estilo dos links
 
@@ -259,4 +260,4 @@ Este exemplo possui uma única seção chamada "Situação 1" que está contida 
 \end{minipage}
 ```
 
-Isto faz com que todo o conteúdo antes de `\end{minipage} seja mantido em uma mesma página. Caso você tenha uma quantidade maior de texto, pode retirar estas tags ou usar mais de um conjunto para ter controle sobre quais elementos aparecerão em cada página.
+Isto faz com que todo o conteúdo antes de `\end{minipage}` seja mantido em uma mesma página. Caso você tenha uma quantidade maior de texto, pode retirar estas tags ou usar mais de um conjunto para ter controle sobre quais elementos aparecerão em cada página.
