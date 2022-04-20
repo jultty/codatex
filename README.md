@@ -1,4 +1,13 @@
-# codaTeX
+<br><br>
+<h1 align="center">codaTeX</h1>
+
+<div align="center">
+<a href="https://app.netlify.com/sites/codatex/deploys">
+  <img src="https://api.netlify.com/api/v1/badges/88311d2f-5965-482c-a52e-928e680ce936/deploy-status">
+</a>
+ </div>
+ 
+ <br>
 
 Modelo LaTeX para criar documentos de referência, estudo e pesquisa em programação.
 
