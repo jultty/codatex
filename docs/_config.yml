@@ -1,0 +1,25 @@
+title: codaTeX
+description: >-
+  Um modelo LaTeX para estudos de código
+baseurl: ""
+url: "https://jultty.github.io/codatex"
+github_username: jultty
+
+markdown: kramdown
+#theme: minima
+remote_theme: just-the-docs/just-the-docs
+plugins:
+  - jekyll-feed
+
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter_opts:
+    disable: false
+
+# Just the Docs
+placeholder_text: "Pesquisar"
+aux_links:
+  "GitHub":
+    - "//github.com/jultty/codatex"
+last_edit_timestamp: true # default?
+last_edit_time_format: "%b %e %Y at %I:%M %p" # formato de data ruby: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
