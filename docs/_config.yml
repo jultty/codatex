@@ -2,7 +2,7 @@ title: codaTeX
 description: >-
   Um modelo LaTeX para estudos de código
 baseurl: ""
-url: "https://jultty.github.io/codatex"
+url: "https://codatex.netlify.app"
 github_username: jultty
 
 markdown: kramdown
