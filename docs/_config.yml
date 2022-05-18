@@ -6,7 +6,6 @@ url: "https://codatex.netlify.app"
 github_username: jultty
 
 markdown: kramdown
-#theme: minima
 remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-feed
@@ -17,9 +16,10 @@ kramdown:
     disable: false
 
 # Just the Docs
-placeholder_text: "Pesquisar"
+color_scheme: dark
 aux_links:
   "GitHub":
     - "//github.com/jultty/codatex"
 last_edit_timestamp: true # default?
-last_edit_time_format: "%b %e %Y at %I:%M %p" # formato de data ruby: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
+# formato de data ruby: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
+last_edit_time_format: "%b %e %Y at %I:%M %p"
